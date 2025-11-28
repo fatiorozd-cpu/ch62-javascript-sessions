@@ -118,5 +118,25 @@ console.log(`Realizando una potencia : ${calculate (6,3,(a,b) => a**b )}`); //21
 
 // Aplicar una función que calcule el residuo de una devisión, para saber si 6 es divisible entre 3
 
+console.log (`Realizand una división: ${calculate (14,7,(a,b) => a%b)}`);
+
+
+var varA = 10;
+let varB = 20;
+const varC = 30;
+const d = 40;
+const e = 50;
+const f = 60;
+const g = 70;
+
+const cambiarValores = (a, b, c) =>{
+  a = 100;
+  b = 200;
+  c = 300;
+  var d = 400;
+  let e = 500;
+  const f = 600;
+  console.log(a,b,c);
+}
 
 
